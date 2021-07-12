@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  width: 1300px;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -296,3 +296,118 @@ footer p a:hover {
 }
 
 /* Footer-Section Css End Here  */
+
+/* Responsive Css  */
+
+@media (max-width: 1600px) {
+  .container {
+    width: 80%;
+  }
+}
+@media (max-width: 1410px) {
+  .container {
+    width: 90%;
+  }
+  .blog-text h3 {
+    font-size: 22px;
+  }
+  .course-title h3 {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 95%;
+  }
+  .course-team {
+    flex-wrap: wrap;
+  }
+  .course-single {
+    width: 45%;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  .top-team {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .blog-text h3 {
+    font-size: 17px;
+  }
+  .blog-text p {
+    font-size: 16px;
+  }
+  .course-title h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 710px) {
+  .blog-main {
+    grid-template-columns: 1fr;
+    margin: 20px 0;
+  }
+  .course-team {
+    justify-content: center;
+  }
+  .course-single {
+    width: 90%;
+  }
+}
+
+@media (max-width: 688px) {
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .header-main {
+    flex-wrap: wrap;
+  }
+  .header-logo {
+    width: 30%;
+  }
+  .header-menu {
+    width: 70%;
+  }
+  .header-profile {
+    width: 100%;
+    text-align: center;
+  }
+  .header-menu nav ul li a {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+  .header-logo a img {
+    width: 35px;
+  }
+  .header-main a span {
+    font-size: 30px;
+  }
+  .top-team {
+    grid-template-columns: 1fr;
+  }
+  .single-team {
+    justify-content: center;
+  }
+  .single-team span {
+    font-size: 18px;
+  }
+  .course-single {
+    width: 95%;
+  }
+  .rat-img {
+    width: 83px;
+  }
+  .dura {
+    width: 94px;
+    padding: 3px;
+  }
+  footer p {
+    font-size: 12px;
+  }
+  footer p a {
+    font-size: 15px;
+  }
+}
