@@ -11,9 +11,11 @@
   box-sizing: border-box;
 }
 
+html,
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #f3f1ff;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -58,8 +60,9 @@ a {
 }
 
 .header-main a span {
-  font-size: 26px;
+  font-size: 40px;
   color: #fff;
+  font-weight: 600;
   padding: 0 20px;
 }
 
@@ -75,11 +78,11 @@ a {
 }
 
 .header-menu nav ul li a {
-  font-size: 18px;
+  font-size: 17px;
   color: #ffffff;
   padding: 10px 25px;
+  font-weight: 500;
 }
-
 .header-menu nav ul li a:hover {
   color: coral;
 }
@@ -134,6 +137,7 @@ a {
 
 .single-team span {
   font-size: 22px;
+  font-weight: 500;
 }
 
 /* Blog-Section Css  */
@@ -175,6 +179,7 @@ a {
 
 .blog-text p {
   font-size: 20px;
+  font-weight: 500;
   color: rgb(199, 192, 192);
 }
 
@@ -253,6 +258,11 @@ a {
 .dura img {
   width: 22px;
   margin-right: 13px;
+}
+
+.course-rating span {
+  font-weight: 500;
+  color: orangered;
 }
 
 .dura span {
